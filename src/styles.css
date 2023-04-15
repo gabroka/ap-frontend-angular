@@ -1,1 +1,131 @@
 /* You can add global styles to this file, and also import other style files */
+.logo {
+    width: auto;
+    position: relative;
+    margin: 0;
+  }
+  
+  .redes {
+    border: 2px solid #525150;
+  }
+  /* .imgRedes{
+    position: relative;
+    top: -14px;
+    right: 8px;
+    background-color: transparent;
+  } */
+  /* button.btn{
+    width: auto;
+    height: auto;
+  } */
+  ul li {
+    display: inline-block;
+    background-color: transparent;
+  
+    margin: 5px;
+  
+    width: 30px;
+  }
+  
+  .img_representativa {
+    overflow: hidden;
+    height: 200px;
+  
+    border: 1px solid red;
+  }
+  
+  div.img_representativa img {
+    
+    position: relative;
+    height: 100%;
+    
+    image-rendering: optimizeQuality;
+  
+  }
+  
+  .img_personal {
+  
+    width: 160px;
+    height: 160px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    position: relative;
+    top: -70px;
+    left: 50px;
+    overflow: hidden;
+  }
+  
+  .img_fluid.img_personal img {
+    position: relative;
+    z-index: 10;
+    left: -20%;
+    top: -70px;
+  }
+  
+  .acerca_de_mi {
+    /* z-index: -1; */
+    position: relative;
+    text-align: justify;
+    top: -163px;
+    max-width: 100%;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    /* box-sizing: border-box; */
+    /* margin-bottom: 0; */
+    margin-top: 5px;
+  }
+  
+  /* #textAreaAcercaDeMi {
+    display: none;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  } */
+  
+  div label {
+    display: block;
+    font-size: 20px;
+    text-decoration: underline;
+    margin-top: 50px;
+  }
+  
+  .container-fluid.bg-primary {
+    margin: 0;
+    height: 20px;
+  }
+  
+  .btn.btn-light.acerca_de_mi {
+    /* modifica el boton edicion */
+    position: relative;
+    left: 80%;
+    top: 15px;
+    width: auto;
+    height: auto;
+    /* background-image: url(../img/stylo_pen_write_19386\ _1.png); */
+    /* top: 21px; */
+  }
+  
+  /* background-color: blue */
+  
+  
+  img.w-100.h-100 { /* aplica a las imagenes en las experiencias */
+    display: block;
+  
+    /* width: 50%;
+  height: 50%; */
+  }
+  
+  
+  /* seccion hard y soft skills */
+  .container.skills {
+    margin-bottom: 5%;
+  }
+  
+  .tituloMiExperiencia {
+  text-align: center;
+  text-decoration: underline;
+  }
+  
