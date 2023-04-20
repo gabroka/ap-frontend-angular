@@ -1,27 +1,53 @@
 <nav class="navbar bg-secondary">
-    <div class="container col-sm-12 logo">
+  <div class="container col-sm-12 logo">
+    <img src="/assets/img/argprog2.png" alt="logo_argentina_programa" />
+  </div>
+  <ul>
+    <li class="redes w-auto p-3">
+      <a href="https://codepen.io/gabroka" target="_blank"
+        ><!-- <img src="/assets/img/codepen.svg" alt="codepen"> --><i
+          class="fa-brands fa-codepen"
+        ></i
+      ></a>
+      <!-- <button type="button" class="btn"> <img class="imgRedes" src="img/stylo_pen_write_19386 _16x16.png">
+      </button> -->
+    </li>
+    <li class="redes w-auto p-3">
+      <a
+        href="www.linkedin.com/in/carlos-anibal-gabrovich-0193b3a7"
+        target="_blank"
+        ><!-- <img src="src/assets/img/linkedin.svg"
+          alt="linkedin"> --><i class="fa-brands fa-linkedin"></i
+      ></a>
+    </li>
+    <li class="redes w-auto p-3">
+      <a href="https://github.com/gabroka/maqueta_frontend" target="_blank"
+        ><i class="fa-brands fa-github"></i
+        ><!-- <img src="src\assets\img\square-github.svg"
+          alt="github"> --></a
+      >
+    </li>
+    <!-- Button trigger modal de login -->
+    <button
+      type="button"
+      class="btn btn-primary w-auto p-3"
+      data-bs-toggle="modal"
+      data-bs-target="#loginModal"
+      id="btnlogin"
+      *ngIf="habilitar" display=none
 
-      <img src="img/argprog2.png" alt="logo_argentina_programa">
+    >
+      Login
+    </button>
+    <button
+      type="button"
+      
+     class="btn btn-primary w-auto p-3"
+      id="btnlogout"
+    
 
-    </div>
-    <ul>
-      <li class="redes">
-        <a href="https://codepen.io/gabroka" target="_blank"><img src="https://1drv.ms/u/s!Al4yIjhGf6ZlkQw3VmetLDw0jduV?e=afFNMo" alt="codepen"></a>
-        <!-- <button type="button" class="btn"> <img class="imgRedes" src="img/stylo_pen_write_19386 _16x16.png">
-        </button> -->
-      </li>
-      <li class="redes">
-        <a href="www.linkedin.com/in/carlos-anibal-gabrovich-0193b3a7" target="_blank"><img src="img/linkedin.svg"
-            alt="linkedin"></a>
-      </li>
-      <li class="redes">
-        <a href="https://github.com/gabroka/maqueta_frontend" target="_blank"><img src="img/square-github.svg"
-            alt="github"></a>
-      </li>
-      <!-- Button trigger modal de login -->
-      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#loginModal">
-        Login
-      </button>
-
-    </ul>
-  </nav>
+    >
+      Logout
+    </button>
+  </ul>
+</nav>

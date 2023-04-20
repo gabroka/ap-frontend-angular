@@ -1,0 +1,17 @@
+/* ul{
+    position:relative;
+    right:266px;
+    display:flex;
+   flex-direction:column;
+}
+ul li {
+display: inline-block;
+font-size: larger;
+} */
+#btnlogin {
+    display:"deshabilitado";
+}
+
+/* data-bs-toggle="modal"
+      data-bs-target="#loginModal"
+      id="btnlogin" */

@@ -5,9 +5,10 @@
     margin: 0;
   }
   
-  .redes {
+  /* .redes {
     border: 2px solid #525150;
-  }
+    width: 10%;
+  } */
   /* .imgRedes{
     position: relative;
     top: -14px;
@@ -18,13 +19,22 @@
     width: auto;
     height: auto;
   } */
-  ul li {
-    display: inline-block;
+  ul {
+    list-style-type: none;
+    display: flex;
     background-color: transparent;
-  
+    position: absolute;
+    right: 240px;
     margin: 5px;
-  
+  flex-wrap: initial;
     width: 30px;
+  }
+  
+  li {
+    
+    display:inline;
+    position: relative;
+    font-size: larger;
   }
   
   .img_representativa {

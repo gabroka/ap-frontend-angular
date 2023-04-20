@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./nav.component.css']
 })
 export class NavComponent {
+habilitar = true;
 
+/* deshabilitado(){
+  return this.habilitado;
+} */
 }
