@@ -1,0 +1,75 @@
+{
+    "user":[
+        {
+        "username":"carlos",
+        "password":"admin"
+        }
+    ],
+    "persona": [
+        {
+            "id": 1,
+            "nombre": "Carlos Anibal",
+            "apellido": "Gabrovich",
+            "fechaNac": "06-12-1971",
+            "correo": "carlos.gabrovich@gmail.com",
+            "foto": "../assets/img/mi-foto (2).jpg"
+        }
+    ],
+    "redes":[
+        {"id":1,
+        "url":"https://codepen.io/gabroka",
+        "imagen":"fa-brands fa-codepen"
+    },
+    {"id":2,
+        "url":"https://www.linkedin.com/in/carlos-anibal-gabrovich-0193b3a7",
+        "imagen":"fa-brands fa-linkedin"
+    },
+    {"id":3,
+        "url":"https://github.com/gabroka",
+        "imagen":"fa-brands fa-github"
+    }
+    ],
+    "ExperienciaLaboral": [
+        {
+            "id": 1,
+            "nomEmpresa":"",
+            "foto": "",
+            "fechaInicio": "",
+            "fechaFin": "",
+            "descripcion": ""
+        }
+        {
+            "id": 2,
+            "nomEmpresa":"",
+            "foto": "",
+            "fechaInicio": "",
+            "fechaFin": "",
+            "descripcion": ""
+        }
+        {
+            "id": 3,
+            "nomEmpresa":"",
+            "foto": "",
+            "fechaInicio": "",
+            "fechaFin": "",
+            "descripcion": ""
+        }
+        {
+            "id": 4,
+            "nomEmpresa":"",
+            "foto": "",
+            "fechaInicio": "",
+            "fechaFin": "",
+            "descripcion": ""
+        }
+        {
+            "id": 5,
+            "nomEmpresa":"",
+            "foto": "",
+            "fechaInicio": "",
+            "fechaFin": "",
+            "descripcion": ""
+        }
+    ]
+    
+}
