@@ -1,0 +1,19 @@
+<div class="container acerca_de_mi ml-1 mr-1">
+  
+  <button
+    type="button"
+    class="btn btn-light btn-outline-dark d-inline acerca_de_mi"
+    data-bs-toggle="modal"
+    data-bs-target="#editAcercaDeMi"
+  >
+    <img src="img/stylo_pen_write_19386 _1.png" alt="edicion" />
+  </button>
+  <div class="row">
+    <div class="col-12" *ngFor="let dato of acercaDeMi">
+      <label for="textAcercaDeMi">Acerca de mi</label>
+      <p id="textAcercaDeMi">
+        {{dato.descripcion}}
+      </p>
+    </div>
+  </div>
+</div>

@@ -1,2 +1,1 @@
-# ap-frontend-angular
-proyecto portfolio en angular
+al principio me fue muy dificil entender como usar algular, tuve que leer y ver muchos videos hasta que le encontre como comenzar. los videos de youtube de programatk me fueron muy utiles, tambien las masterclass y videos de base de datos y poo. aun asi es necesario mas tiempo para enternder, este curso es util como punto de partida, pero hace falta practica y afianzar el conocimiento de todo lo que se puede hacer con angular, por ejemplo no se como utilizar los modulos, hasta aca, los modulos no fueron necesarios.

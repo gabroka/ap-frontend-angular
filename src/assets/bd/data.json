@@ -1,0 +1,328 @@
+{
+    "nombre":"Carlos Anibal",
+  "user": [
+    {
+      "username": "carlos",
+      "password": "admin"
+    }
+  ],
+
+  "redes": [
+    {
+      "id": 1,
+      "url": "https://codepen.io/gabroka",
+      "imagen": "fa-brands fa-codepen"
+    },
+    {
+      "id": 2,
+      "url": "https://www.linkedin.com/in/carlos-anibal-gabrovich-0193b3a7",
+      "imagen": "fa-brands fa-linkedin"
+    },
+    {
+      "id": 3,
+      "url": "https://github.com/gabroka",
+      "imagen": "fa-brands fa-github"
+    }
+  ],
+  "banner": "../img/farmacia-simbolo.jpg",
+
+  "acercaDeMi": [
+    {
+      "id": 1,
+      "nombre": "Carlos Anibal",
+      "apellido": "Gabrovich",
+      "fechaNac": "06-12-1971",
+      "correo": "carlos.gabrovich@gmail.com",
+      "foto": "../img/mi-foto(2).jpg",
+      "descripcion": "Hola, bienvenidos. soy Carlos Anibal Gabrovich. Este es mi portfolio, es el trabajo final del curso Argentina Programa, que nos prepara para ser programador full stack junior. Siempre he sido aficionado a la informatica, he ido aprendiendo por mi cuenta, leyendo y haciendo algun curso, y este ultimo año me decidi a estudiar mas en profundidad y hacer algo mas profesional. Soy farmaceutico desde 1995, trabajando en varias farmacias de la provincia de Entre Rios. Aparte me gusta el running, el ciclismo, hago algunas reparaciones de biciletas, y reparaciones electricas."
+    }
+  ],
+
+  "ExperienciaLaboral": [
+    {
+      "id": 1,
+      "imagen": "../img/Sin_imagen.jpg",
+      "alt": "sin_imagen",
+      "empresa": "Farmacia Torres",
+      "localidad": "Hernandarias",
+      "provincia": "Entre Rios",
+      "tarea": "Director Tecnico",
+      "desde": "1995",
+      "hasta": "1996"
+    },
+    {
+      "id": 2,
+      "imagen": "../img/Sin_imagen.jpg",
+      "alt": "sin_imagen",
+      "empresa": "Farmacia Rosario",
+      "localidad": "Paraná",
+      "provincia": "Entre Rios",
+      "tarea": "Director Tecnico",
+      "desde": "1996",
+      "hasta": "1998"
+    },
+    {
+      "id": 3,
+      "imagen": "../img/Sin_imagen.jpg",
+      "alt": "sin_imagen",
+      "Empresa": "Farmacia Social ATM, de Asociacion de Trabajadores Municipales",
+      "localidad": "Paraná",
+      "provincia": "Entre Rios",
+      "tarea": "Director Tecnico",
+      "fechaInicio": "09-1998",
+      "fechaFin": "01-2003"
+    },
+    {
+      "id": 4,
+      "imagen": "../img/Sin_imagen.jpg",
+      "alt": "sin_imagen",
+      "Empresa": "Farmacia Vivir, de emergencias medica Vivir",
+      "localidad": "Paraná",
+      "provincia": "Entre Rios",
+      "tarea": "Director Tecnico",
+      "fechaInicio": "01-2003",
+      "fechaFin": "09-2003"
+    },
+    {
+      "id": 5,
+      "imagen": "../img/Sin_imagen.jpg",
+      "alt": "sin_imagen",
+      "Empresa": "Farmacia Social ATM, de Asociacion de Trabajadores Municipales",
+      "localidad": "Paraná",
+      "provincia": "Entre Rios",
+      "tarea": "Director Tecnico",
+      "fechaInicio": "09-2003",
+      "fechaFin": "01-2005"
+    },
+    {
+      "id": 6,
+      "imagen": "../img/walmart-pharmacy.webp",
+      "alt": "walmart-pharmacy",
+      "Empresa": "Farmacia Walmart",
+      "localidad": "Paraná",
+      "provincia": "Entre Rios",
+      "tarea": "Director Tecnico",
+      "fechaInicio": "02-2005",
+      "fechaFin": "06-2008"
+    },
+    {
+      "id": 7,
+      "imagen": "../img/Sin_imagen.jpg",
+      "alt": "sin_imagen",
+      "Empresa": "Farmacia Avenida, de Liliam Cechini",
+      "localidad": "Concordia",
+      "provincia": "Entre Rios",
+      "tarea": "Director Tecnico",
+      "fechaInicio": "07-2008",
+      "fechaFin": "07-2010"
+    },
+    {
+      "id": 8,
+      "imagen": "../img/logo-Centro-de-vac-e-infec-Cdia.jpg",
+      "alt": "CentroVacunacion",
+      "Empresa": "Centro de Vacunacion e Infectologico Concordia",
+      "localidad": "Concordia",
+      "provincia": "Entre Rios",
+      "tarea": "Asesoramiento en ventas y vacunacion",
+      "fechaInicio": "08-2010",
+      "fechaFin": "07-2011"
+    },
+
+    {
+      "id": 9,
+      "imagen": "../img/FarmaciaJosefina.jpg",
+      "alt": "FarmaciaJosefina",
+      "Empresa": "FarmaciaJosefina",
+      "localidad": "Concordia",
+      "provincia": "Entre Rios",
+      "tarea": "director Tecnico",
+      "fechaInicio": "09-2011",
+      "fechaFin": "01-2017"
+    },
+    {
+      "id": 10,
+      "imagen": "../img/fcia-ffull.jpg",
+      "alt": "FarmaciaFarmafull",
+      "Empresa": "Farmacia Farmafull, de Sociedad TEVEOBIEN SRL",
+      "localidad": "Concordia",
+      "provincia": "Entre Rios",
+      "tarea": "director Tecnico",
+      "fechaInicio": "02-2017",
+      "fechaFin": "actualidad"
+    }
+  ],
+  "FormacionAcademica": [
+    {
+      "id": 1,
+      "curso": "Curso Fisiología del Sistema Nervioso Central, Paraná febrero de 1996",
+      "certificado": "../img/fisiologiaSNC_1.jpg",
+      "alt": "FisiologiadelSistemaNerviosoCentral"
+    },
+    {
+      "id": 2,
+      "curso": "Curso de esterilización, Buenos Aires julio de 1996",
+      "certificado": "../img/cursoEsterilizacionAsistencialrz.jpg",
+      "alt": "FisiologiadelSistemaNerviosoCentral"
+    },
+    {
+      "id": 3,
+      "curso": "1ra jornada de farmacovigilancia, Paraná noviembre de 1996",
+      "certificado": "../img/jornadaFarmacovigilanciarz.jpg",
+      "alt": "jornadaFarmacovigilancia"
+    },
+    {
+      "id": 4,
+      "curso": "Jornada sobre residuos patogénicos, mayo de 1997",
+      "certificado": "../img/residuosPatogenicosrz.jpg",
+      "alt": "ResiduosPatogenicos"
+    },
+    {
+      "id": 5,
+      "curso": "2da jornada de esterilización, octubre de 1997",
+      "certificado": "../img/hospitalar.jpg",
+      "alt": "jornadasdeesterilizacion"
+    },
+    {
+      "id": 6,
+      "curso": "Jornadas internacionales de esterilización, noviembre de 1997",
+      "certificado": "../img/jornadasEsterilizacionrz.jpg",
+      "alt": "jornadasintdeesterilizacion"
+    },
+    {
+      "id": 7,
+      "curso": "Curso de vacunas, mayo de 1998",
+      "certificado": "../img/programaVacunacionEnFarmaciasrz.jpg",
+      "alt": "programaVacunacionEnFarmacias"
+    },
+    {
+      "id": 8,
+      "curso": "Taller de capacitación teórico-practico en inmunizaciones: vacunas especificas, junio de 1999",
+      "certificado": "../img/vacunasEspecificasrz.jpg",
+      "alt": "vacunasespecificas"
+    },
+    {
+      "id": 9,
+      "curso": "Seminario clínica del marketing farmacéutico, julio de 2000",
+      "certificado": "../img/marketingFarmaceuticorz.jpg",
+      "alt": "marketingFarmaceutico"
+    },
+    {
+      "id": 10,
+      "curso": "Jornadas actualizaciones dermatológicas, julio y noviembre de 2001",
+      "certificado": "../img/actualizacionesDermatologicasrz.jpg",
+      "alt": "actualizacionesdermatológicas"
+    },
+    {
+      "id": 11,
+      "curso": " 2das jornadas santafesinas y 1ras federales sobre política, economía, y gestión de medicamentos, septiembre de 2003",
+      "certificado": "../img/economiaGestionMedicamentosrz.jpg",
+      "alt": "jornadassantafesinasyfederales"
+    },
+    {
+      "id": 12,
+      "curso": "Taller farmacovigilancia. Seguridad de los medicamentos, noviembre de 2003",
+      "certificado": "../img/tallerFarmacovigilanciarz.jpg",
+      "alt": "tallerfarmacovigilancia"
+    },
+    {
+      "id": 13,
+      "curso": "Curso a distancia, información de medicamentos para la atención farmacéutica, modulo: medicamentos utilizados en el asma, 50 hs cátedra con evaluación final, julio de 2009",
+      "certificado": "../img/medicamentosAsmarz.jpg",
+      "alt": "asma"
+    },
+    {
+      "id": 14,
+      "curso": "Vº Curso Argentino- IIº Curso Latinoamericano de actualizacion en inmunización a distancia, 3 de diciembre de 2011",
+      "certificado": "../img/cert_inmunizaciones_2011rz.jpg",
+      "alt": "inmunizacion"
+    },
+    {
+      "id": 15,
+      "curso": "VIIIº Curso Argentino- Vº Curso Latinoamericano de actualizacion en inmunización a distancia, diciembre de 2014",
+      "certificado": "../img/cert_inmunizaciones_2014rz.jpg",
+      "alt": "inmunizacion"
+    },
+    {
+      "id": 16,
+      "curso": "XIº Curso Argentino- VIIIº Curso Latinoamericano de actualizacion en inmunización a distancia, diciembre de 2017",
+      "certificado": "../img/cert_inmunizaciones_2017rz.jpg",
+      "alt": "inmunizacion"
+    },
+    {
+      "id": 17,
+      "curso": " Curso operador de PC, Windows, office, corel draw, abril de 1998",
+      "certificado": "../img/cursoOperadorPcrz.jpg",
+      "alt": "inmunizacion"
+    },
+    {
+      "id": 18,
+      "curso": "Fundamentos de la Codificación",
+      "certificado": "../img/ReactNative-snapshot-image5169325826668989724",
+      "alt": "codificacion"
+    }
+  ],
+  "skills": [
+    {
+      "id": 1,
+      "skill": "Habilidad HTMl",
+      "valor": 25
+    },
+    {
+      "id": 2,
+      "skill": "Habilidad CSS",
+      "valor": 40
+    },
+    {
+      "id": 3,
+      "skill": "Habilidad JAVA",
+      "valor": 25
+    },
+    {
+      "id": 4,
+      "skill": "Habilidad js",
+      "valor": 20
+    },
+    {
+      "id": 5,
+      "skill": "Habilidad bootstrap",
+      "valor": 30
+    },
+    {
+      "id": 6,
+      "skill": "Adaptabilidad",
+      "valor": 80
+    },
+    {
+      "id": 7,
+      "skill": "Trabajo en equipo",
+      "valor": 80
+    },
+    {
+      "id": 8,
+      "skill": "Capacidad de Aprendizaje",
+      "valor": 70
+    },
+    {
+      "id": 9,
+      "skill": "Resolucion de Problemas",
+      "valor": 90
+    },
+    {
+      "id": 10,
+      "skill": "Administracion del Tiempo",
+      "valor": 80
+    }
+  ],
+  "proyectos": [
+    {
+      "id": 1,
+      "foto": "../img/amAn.jpg",
+      "alt": "americanaAngeles"
+    },
+    {
+      "id": 2,
+      "foto": "../img/mist2.png",
+      "alt": "mistura"
+    }
+  ]
+}
