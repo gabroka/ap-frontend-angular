@@ -1,4 +1,5 @@
 {
+    "nombre":"Carlos Anibal",
   "user": [
     {
       "username": "carlos",
@@ -33,7 +34,7 @@
       "fechaNac": "06-12-1971",
       "correo": "carlos.gabrovich@gmail.com",
       "foto": "../img/mi-foto(2).jpg",
-      "texto": "Hola, bienvenidos. soy Carlos Anibal Gabrovich. Este es mi portfolio, es el trabajo final del curso Argentina Programa, que nos prepara para ser programador full stack junior. Siempre he sido aficionado a la informatica, he ido aprendiendo por mi cuenta, leyendo y haciendo algun curso, y este ultimo año me decidi a estudiar mas en profundidad y hacer algo mas profesional. Soy farmaceutico desde 1995, trabajando en varias farmacias de la provincia de Entre Rios. Aparte me gusta el running, el ciclismo, hago algunas reparaciones de biciletas, y reparaciones electricas."
+      "descripcion": "Hola, bienvenidos. soy Carlos Anibal Gabrovich. Este es mi portfolio, es el trabajo final del curso Argentina Programa, que nos prepara para ser programador full stack junior. Siempre he sido aficionado a la informatica, he ido aprendiendo por mi cuenta, leyendo y haciendo algun curso, y este ultimo año me decidi a estudiar mas en profundidad y hacer algo mas profesional. Soy farmaceutico desde 1995, trabajando en varias farmacias de la provincia de Entre Rios. Aparte me gusta el running, el ciclismo, hago algunas reparaciones de biciletas, y reparaciones electricas."
     }
   ],
 
