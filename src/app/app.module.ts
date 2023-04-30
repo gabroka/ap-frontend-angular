@@ -24,6 +24,7 @@ import { ModalBtnExperiencia8Component } from './componentes/modal-btn-experienc
 import { ModalBtnExperiencia9Component } from './componentes/modal-btn-experiencia9/modal-btn-experiencia9.component';
 import { ModalBtnExperiencia10Component } from './componentes/modal-btn-experiencia10/modal-btn-experiencia10.component';
 import { LoginComponent } from './componentes/login/login.component';
+import { LogoutComponent } from './componentes/logout/logout.component';
 
 @NgModule({
   declarations: [
@@ -47,7 +48,8 @@ import { LoginComponent } from './componentes/login/login.component';
     ModalBtnExperiencia8Component,
     ModalBtnExperiencia9Component,
     ModalBtnExperiencia10Component,
-    LoginComponent
+    LoginComponent,
+    LogoutComponent
   ],
   imports: [
     BrowserModule,

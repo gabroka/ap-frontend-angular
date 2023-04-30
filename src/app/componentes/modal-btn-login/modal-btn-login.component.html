@@ -9,18 +9,20 @@
           <div class="input-group mb-3">
             <div>
               <input  type="text" class="form-control" placeholder="nombre de usuario" aria-label="nombre"
-               (input)="useringresed($event)">
+               (input)="userIngresed($event)">
             </div>
             <div>
-              <input type="password" class="form-control" placeholder="contraseña" aria-label="contraseña"
+              <input type="password" class="form-control" placeholder="contraseña" aria-label="contraseña" (input)="passwordIngresed($event)"
              >
             </div>
           </div>
         </div>
         <div class="modal-footer">
-          {{estado}} {{useringresado}}
+          
+          <span *ngIf="estadouser && estadopass">estas logueado</span>
+          <span *ngIf="!estadouser || !estadopass">NO estas logueado</span>
           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-          <button type="button" class="btn btn-primary">Aceptar</button>
+          <button type="button" class="btn btn-primary"data-bs-dismiss="modal" (click)="LoginVerify()">Aceptar</button>
         </div>
       </div>
     </div>

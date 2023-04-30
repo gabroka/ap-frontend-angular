@@ -1,11 +1,11 @@
 {
     "nombre":"Carlos Anibal",
-  "user": [
-    {
+  
+    
       "username": "carlos",
-      "password": "admin"
-    }
-  ],
+      "password": "admin",
+    
+  
 
   "redes": [
     {
