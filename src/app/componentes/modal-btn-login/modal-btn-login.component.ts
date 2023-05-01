@@ -1,8 +1,8 @@
-import { Component } from '@angular/core';
+import { Component, ViewChild  } from '@angular/core';
 import { OnInit } from '@angular/core';
 import { DatosService } from 'src/app/servicios/datos.service';
 import { EstadologinService } from 'src/app/servicios/estadologin.service';
-
+import { LoginComponent } from '../login/login.component';
 @Component({
   selector: 'app-modal-btn-login',
   templateUrl: './modal-btn-login.component.html',
@@ -11,6 +11,8 @@ import { EstadologinService } from 'src/app/servicios/estadologin.service';
 
 // la clase con el implements OnInit hace que se ejecute junto al inicio del modulo
 export class ModalBtnLoginComponent implements OnInit {
+  //  @ViewChild(LoginComponent) loginComponent: LoginComponent;
+
 // user toma el nombre de usuario que llega desde el json via el servicio DatosService
   user: any;
   // estadouser evalua si es usuario es el correcto
@@ -25,12 +27,16 @@ export class ModalBtnLoginComponent implements OnInit {
   password: string = '';
 
   constructor(private log: DatosService, private estadologin: EstadologinService) {}
+  // ngAfterViewInit(): void {
+  //   this.LoginComponent.ngOnInit();
+  // }
 
   ngOnInit(): void {// trae los datos del json
     this.log.getDatos().subscribe((datos) => {
       this.user = datos.username;
       this.password = datos.password;
     });
+    // this.loginComponent.ngOnInit();
   }
 // evalua el usuario ingresado con el que llega del json
   userIngresed(event: Event) {
@@ -55,11 +61,13 @@ export class ModalBtnLoginComponent implements OnInit {
     if (this.estadopass && this.estadouser){
       console.log("estadopass "+this.estadopass+";estadouser "+this.estadouser);
       this.estadologin.setEstadologin ( true );
+      // this.logincomponent.ngOnInit();
     }
-      
-    }
+   
+  }
 }
 
+ 
 // class LoginVerify {
 //   valorestado: boolean=false;
 //   constructor (estadologin: EstadologinService){};
