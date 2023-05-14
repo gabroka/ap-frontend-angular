@@ -1,4 +1,5 @@
 <button
+*ngIf="!estado"
       type="button"
       class="btn btn-primary w-auto p-3"
       data-bs-toggle="modal"
@@ -7,7 +8,7 @@
       
 
     >
-      Login 
+      Login {{estado}}
     </button>
 <!-- <div *ngFor="let us of password">
   {{us.id}}

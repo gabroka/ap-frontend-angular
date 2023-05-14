@@ -14,7 +14,7 @@ baner:any;
   ngOnInit(): void {
     this.datos.getDatos().subscribe(data =>{
     this.acercaDeMi=data.acercaDeMi;
-    
+    console.log("var en acercademi "+this.acercaDeMi.id);
     })
   }
 }

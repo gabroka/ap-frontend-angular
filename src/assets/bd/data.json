@@ -1,11 +1,11 @@
 {
     "nombre":"Carlos Anibal",
-  "user": [
-    {
+  
+    
       "username": "carlos",
-      "password": "admin"
-    }
-  ],
+      "password": "admin",
+    
+  
 
   "redes": [
     {
@@ -24,16 +24,16 @@
       "imagen": "fa-brands fa-github"
     }
   ],
-  "banner": "../img/farmacia-simbolo.jpg",
+  "banner": "../assets/img/farmacia-simbolo.jpg",
 
   "acercaDeMi": [
     {
       "id": 1,
       "nombre": "Carlos Anibal",
       "apellido": "Gabrovich",
-      "fechaNac": "06-12-1971",
+      "fechanac": "06-12-1971",
       "correo": "carlos.gabrovich@gmail.com",
-      "foto": "../img/mi-foto(2).jpg",
+      "foto": "../assets/img/mi-foto(2).jpg",
       "descripcion": "Hola, bienvenidos. soy Carlos Anibal Gabrovich. Este es mi portfolio, es el trabajo final del curso Argentina Programa, que nos prepara para ser programador full stack junior. Siempre he sido aficionado a la informatica, he ido aprendiendo por mi cuenta, leyendo y haciendo algun curso, y este ultimo año me decidi a estudiar mas en profundidad y hacer algo mas profesional. Soy farmaceutico desde 1995, trabajando en varias farmacias de la provincia de Entre Rios. Aparte me gusta el running, el ciclismo, hago algunas reparaciones de biciletas, y reparaciones electricas."
     }
   ],

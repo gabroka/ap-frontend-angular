@@ -6,13 +6,21 @@
     data-bs-toggle="modal"
     data-bs-target="#editAcercaDeMi"
   >
-    <img src="img/stylo_pen_write_19386 _1.png" alt="edicion" />
+    <img src="../../../assets/img/stylo_pen_write_19386 _16x16.png _32x32.png" alt="edicion" />
+  </button>
+  <button
+    type="button"
+    class="btn btn-light btn-outline-dark d-inline acerca_de_mi mx-auto">
+    <i class="fa-duotone fa-trash"></i>
   </button>
   <div class="row">
     <div class="col-12" *ngFor="let dato of acercaDeMi">
+      <h5 class="mt-5">{{dato.nombre+ " "+dato.apellido}}</h5>
+      <h5>Fecha de Nacimiento: {{dato.fechanac}}</h5>
+      <h5>correo: {{dato.correo}}</h5>
       <label for="textAcercaDeMi">Acerca de mi</label>
       <p id="textAcercaDeMi">
-        {{dato.descripcion}}
+        {{dato.descripcion}} 
       </p>
     </div>
   </div>

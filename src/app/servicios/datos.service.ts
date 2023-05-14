@@ -11,6 +11,7 @@ export class DatosService {
  
   getDatos(): Observable<any>{
     /* console.log(datos); */
-    return this.datos.get('../assets/bd/data.json');
+    return this.datos.get('http://localhost:3306');
   }
 }
+// ../assets/bd/data.json
