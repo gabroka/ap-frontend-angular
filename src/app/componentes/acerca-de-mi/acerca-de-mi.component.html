@@ -13,14 +13,16 @@
     class="btn btn-light btn-outline-dark d-inline acerca_de_mi mx-auto">
     <i class="fa-duotone fa-trash"></i>
   </button>
+  <!-- {{Persona.nombre+" "+Persona.apellido}} -->
   <div class="row">
-    <div class="col-12" *ngFor="let dato of acercaDeMi">
-      <h5 class="mt-5">{{dato.nombre+ " "+dato.apellido}}</h5>
-      <h5>Fecha de Nacimiento: {{dato.fechanac}}</h5>
-      <h5>correo: {{dato.correo}}</h5>
+    <!--  <div class="col-12" *ngFor="let dato of Persona">-->
+    <div class="col-12">
+      <h5 class="mt-5">{{persona.nombre+" "+persona.apellido}}</h5>
+      <h5>Fecha de Nacimiento: {{persona.fechanac}}</h5>
+      <h5>correo: {{persona.email}}</h5>
       <label for="textAcercaDeMi">Acerca de mi</label>
       <p id="textAcercaDeMi">
-        {{dato.descripcion}} 
+        {{persona.acercademi}} 
       </p>
     </div>
   </div>

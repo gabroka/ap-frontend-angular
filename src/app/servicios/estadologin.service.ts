@@ -9,7 +9,7 @@ export class EstadologinService {
   constructor() {}
 
   public getEstadologin():boolean {
-    console.log("ingreso al metodo getEstadologin. estado de var "+this.var);
+    //console.log("ingreso al metodo getEstadologin. estado de var "+this.var);
     return this.var;
   }
 

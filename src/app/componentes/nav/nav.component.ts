@@ -17,7 +17,7 @@ constructor (private data:DatosService){}
 
 ngOnInit(): void {
   this.data.getDatos().subscribe (data =>{
-    this.redes=data.redes
+    this.redes=data;
   }
     )
 }

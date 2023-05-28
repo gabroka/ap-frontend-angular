@@ -16,9 +16,9 @@ acercademi:any=[];
   ngOnInit(): void {
     // trae los datos del json
       this.data.getDatos().subscribe(datos => {
-        this.simbfcia = datos.banner;
+        this.simbfcia = datos;
         console.log("var simbfcia "+ this.simbfcia);
-        this.acercademi = datos.acercaDeMi;
+        //this.acercademi = datos.acercaDeMi;
         console.log("var mifoto "+this.acercademi);
       });
     

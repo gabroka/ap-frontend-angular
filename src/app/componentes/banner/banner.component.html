@@ -1,22 +1,22 @@
 <div class="container img_representativa">
-  <!-- src="..\assets\img\farmacia-simbolo.jpg" -->
+  <!-- src="..\assets\img\farmacia-simbolo.jpg" [src]="simbfcia"-->
   <img
-    [src]="simbfcia"
-    class="img-fluid rounded mx-auto d-block"
+    src="..\assets\img\farmacia-simbolo.jpg"
+    class="img-fluid rounded mx-auto d-block img_representativa"
     alt="logo-farmacia"
   />
 </div>
-<div *ngFor="let dato of acercademi" class="img_fluid img_personal">
-  <!-- <div class="row"> -->
-    <!-- src="..\assets\img\mi-foto(2).jpg" -->
-      <img
-      [src]="dato.foto"
-      
-      alt="fotopersonal">
+<!--  <div *ngFor="let dato of acercademi" class="img_fluid img_personal"> -->
+<div class="img_fluid img_personal">
+  <!-- src="..\assets\img\mi-foto(2).jpg" [src]="dato.foto"-->
+  <img
     
-    <!-- </div> -->
-    <!-- <div class="row">Carlos anibal gabrovich</div>
+    src="..\assets\img\mi-foto(2).jpg"
+    alt="fotopersonal"
+  />
+
+  <!-- </div> -->
+  <!-- <div class="row">Carlos anibal gabrovich</div>
     <div class="row">fecha de nacimiento: 06-12-1971</div>
     <div class="row">correo</div> -->
-  
 </div>
