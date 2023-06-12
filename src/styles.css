@@ -21,13 +21,13 @@
   } */
   ul {
     list-style-type: none;
-    display: flex;
+    display: inline-block!important;
     background-color: transparent;
     position: absolute;
-    right: 240px;
+    right: 40px;
     margin: 5px;
-  flex-wrap: initial;
-    width: 30px;
+  /* flex-wrap: initial; */
+    /* width: 30px; */
   }
   
   li {

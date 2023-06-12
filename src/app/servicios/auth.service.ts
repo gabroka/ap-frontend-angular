@@ -9,7 +9,7 @@ import { JwtDto } from '../models/jwtdto.model';
   providedIn: 'root'
 })
 export class AuthService {
-  authURL ='http://localhost:8080/auth'
+  authURL ='https://back-portfolio-qkmn.onrender.com';
   constructor(private http:HttpClient) { }
 
   public nuevo(nuevoUsuario: NuevoUsuario): Observable<any>{
@@ -17,6 +17,6 @@ export class AuthService {
   }
 
   public login(loginUsuario:LoginUsuario):Observable<JwtDto>{
-    return this.http.post<JwtDto>('http://localhost:8080/auth/login', loginUsuario);
+    return this.http.post<JwtDto>(this.authURL+'/auth/login', loginUsuario);
   }
 }

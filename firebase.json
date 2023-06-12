@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "dist\\ap-frontend-angular",
+    "public": "y",
     "ignore": [
       "firebase.json",
       "**/.*",
