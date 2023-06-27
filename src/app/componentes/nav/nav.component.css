@@ -1,17 +1,20 @@
-/* ul{
-    position:relative;
-    right:266px;
-    display:flex;
-   flex-direction:column;
+.d-iflex{
+    display: inline-flex;
 }
-ul li {
-display: inline-block;
-font-size: larger;
-} */
 
+ul {
+    display: flex;
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+    position: relative;
+    right: 0px;
+}
 
 #btnlogin {
-    display:"deshabilitado";
+    display: "deshabilitado";
 }
 
 /* data-bs-toggle="modal"

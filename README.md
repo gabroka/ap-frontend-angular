@@ -3,3 +3,4 @@ al principio me fue muy dificil entender como usar algular, tuve que leer y ver 
 estoy realizando el login, utilizando una variable que controle el login que pueda modificar desde el modal de login, esta mediante un serivicio (Estadologin) comunico el estado a los otros componentes. no estoy pudiendo hacer que el estado de login pase al servicio y de alli a los otros componentes. estoy usando lineas con console.log para ver en que punto del codigo esta el error, vere si dejo estas lineas comentadas para un posible uso posterior para evaluacion de errores.
 
 voy a agregar formularios reactivos al modal
+La barra de navegacion no se veia responsive, la estuve modificando, hasta que observe que el chrome no se ve responsive pero si se ve en firefox
